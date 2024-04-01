@@ -13,6 +13,23 @@ public class StudentGradeTest extends TestCase {
     public StudentGradeTest(String testName) {
         super(testName);
     }
+    
+    @BeforeClass
+    public static void setUpClass() throws Exception {
+    }
+
+    @AfterClass
+    public static void tearDownClass() throws Exception {
+    }
+
+    @Before
+    public void setUp() throws Exception {
+    }
+
+    @After
+    public void tearDown() throws Exception {
+    }
+
 
     public void testGetGrade95() {
         System.out.println("getGrade 95");
